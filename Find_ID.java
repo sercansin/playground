@@ -29,7 +29,7 @@ public String bySearch_getID(String searchWord, String movieTitle){ //Searching 
     	    for(Movies_result m : movies) {
     	    	if(m.getTitle().equals(movieTitle)) { //Making a search within Movies_results and when the title matches the desired Title
     	    		ID = m.getImdbID(); //ID of that movie is taken
-    	    		System.out.println("\n ID taken and is"+ ID);
+    	    		System.out.println("\n ID taken and is"+ ID);  //Id check
     	    		break;
     	    		}
     	    }
